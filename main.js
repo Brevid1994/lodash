@@ -68,4 +68,6 @@ function createUser (obj){
     return anotherUser
 }
 
+const {age, ...anotherUser} = user 
+log(anotherUser)
 console.log(createUser(user));
