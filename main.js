@@ -59,9 +59,9 @@ const user  = {
 //   Суперзадание - как выполнить задачу 3 без библиотек, а только средствами javascript
 
 function createUser (obj){
-    let anotherUser = {}
+    const anotherUser = {}
     for(let item in obj){
-        if(item != 'age'){
+        if(item !== 'age'){
             anotherUser[item] = obj[item]
         }
     }
