@@ -32,6 +32,3 @@ const data1 = [
       "email": "j.dink@erw.com",
     }
   ];
-
-  console.log(data1);
-  console.log(data2);
