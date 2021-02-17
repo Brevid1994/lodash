@@ -69,5 +69,5 @@ function createUser (obj){
 }
 
 const {age, ...anotherUser} = user 
-log(anotherUser)
+console.log(anotherUser);
 console.log(createUser(user));
